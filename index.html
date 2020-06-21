@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS</title>
+</head>
+<body style="background-color: pink;">
+    <img src="boutique.png" style="float:right; width:390px; margin:0px 50px 0px 0px;" >
+    <h1 style="margin: 60px; padding:30; color:red">CONTACT US</h1>
+    <h3>We'd love to hear from you! Send us a questions or comment with the form. </h3><hr>
+    <form>
+        <form action=""/action_page.php">
+           <label for="fname">FIRST NAME:</label>
+           <input type="text" name="fname" required placeholder="add to first name "><br><br>
+        <label for="lname"> LAST NAME: </label>
+            <input type="text" name="lname"><br><br>
+            <label for="email"> EMAIL: </label>
+            <input type="email" name="email" id="email" required placeholder="add to email"><br><br>
+            <label for="phone"> PHONE: </label>
+            <input type="tel" name="phone"><br><br>
+          <label for="company"> COMPANY: </label>
+            <input type="text"  name="company"><br><br>
+        <label for="tym"> Type your message: </label>
+            <textarea name="message" rows="3" cols="30" >write here...</textarea><br><br>
+            <label for="AGE"> AGE: </label>
+            <input type="number" name="number" min="18" max="100" ><br><br>
+            <label for="password" > PASSWORD </label>
+            <input type="password" name="password" ><br><br>
+            <label for="cins"> GENDER : </label>
+            Female<input type="radio" name="gender">
+            Male<input type="radio" name="gender"><br><br>
+            <label for="hobby"> HOBBY: </label>
+        sport<input type="checkbox" name="hobby">
+        food<input type="checkbox" name="hobby">
+        travel<input type="checkbox" name="hobby">
+    </form>
+</body>
+</html>
